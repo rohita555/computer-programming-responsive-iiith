@@ -34,11 +34,11 @@ window.view = {
  	},
 	getInput: function() {
 		var inputValue = document.getElementById('simpleLoopInput').value
-		model.inp = Number(inputValue)
-		this.clearExecutionSection()
-	},
-	getNestedInput: function() {
-		var inputValue = document.getElementById('nestedLoopInput').value
+		if(inputValue>20 || input value <0)
+		{
+			alert("Invalid Input")
+			return false;
+		}
 		model.nestedInp = Number(inputValue)
 		this.clearExecutionSection()
 	},
